@@ -73,6 +73,7 @@
     <Compile Include="..\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
+    <Compile Include="Clients\IObservableStatisticsClient.cs" />
     <Compile Include="Clients\ObservableSearchClient.cs" />
     <Compile Include="Clients\IObservableBlobClient.cs" />
     <Compile Include="Clients\IObservableGistCommentsClient.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Clients\ObservableRepositoriesClient.cs" />
     <Compile Include="Clients\ObservableSshKeysClient.cs" />
     <Compile Include="Clients\ObservableStarredClient.cs" />
+    <Compile Include="Clients\ObservableStatisticsClient.cs" />
     <Compile Include="Clients\ObservableTagsClient.cs" />
     <Compile Include="Clients\ObservableTreesClient.cs" />
     <Compile Include="Clients\ObservableUsersClient.cs" />
